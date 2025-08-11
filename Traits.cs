@@ -4,16 +4,16 @@ using System.Collections.Generic;
 using System.Linq;
 using Obeliskial_Content;
 using UnityEngine;
-using static CharacterToReplace.CustomFunctions;
-using static CharacterToReplace.Plugin;
-using static CharacterToReplace.DescriptionFunctions;
-using static CharacterToReplace.CharacterFunctions;
+using static Riffy.CustomFunctions;
+using static Riffy.Plugin;
+using static Riffy.DescriptionFunctions;
+using static Riffy.CharacterFunctions;
 using System.Text;
 using TMPro;
 using Obeliskial_Essentials;
 using System.Data.Common;
 
-namespace CharacterToReplace
+namespace Riffy
 {
     [HarmonyPatch]
     internal class Traits

@@ -1,0 +1,15 @@
+{
+    "BaseSkin": true,
+    "PerkLevel": 0,
+    "SkinGO": "skinriffy",
+    "SkinID": "riftwalkerbase",
+    "SkinName": "Default",
+    "SkinOrder": 0,
+    "SkinSubclass": "riftwalker",
+    "Sku": "",
+    "SpritePortrait": "riffyPortrait",
+    "SpritePortraitGrande": "riffyPortraitGrande",
+    "SpriteSilueta": "riffySilueta",
+    "SpriteSiluetaGrande": "riffySiluetaGrande",
+    "SteamStat": ""
+}

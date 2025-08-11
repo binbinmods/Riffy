@@ -1,0 +1,15 @@
+{
+    "Card0": "riftwalkervoidfuckery",
+    "Card1": "transmission",
+    "Card2": "manasurge",
+    "Card3": "replenishment",
+    "Card4": "chargebattery",
+    "Card5": "",
+    "CardSpecial0": "",
+    "CardSpecial1": "",
+    "PackClass": "mage",
+    "PackID": "riffy",
+    "PackName": "Riffy",
+    "PerkList": [],
+    "RequiredClass": "riftwalker"
+}

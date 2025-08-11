@@ -1,0 +1,15 @@
+{
+    "AdventureLevel": 0,
+    "BaseCardback": true,
+    "CardbackID": "cardbackriftwalker",
+    "CardbackName": "Default",
+    "CardbackOrder": 1000,
+    "CardbackSprite": "cardbackriftwalker",
+    "CardbackSubclass": "riftwalker",
+    "Locked": false,
+    "ObeliskLevel": 0,
+    "RankLevel": 0,
+    "ShowIfLocked": false,
+    "Sku": "",
+    "SteamStat": ""
+}
