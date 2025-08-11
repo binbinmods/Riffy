@@ -1684,6 +1684,46 @@ namespace Riffy
             }
         }
 
+        /// <summary>
+        /// Reduces the cost of all cards in your hand that have a card type in cardTypes by numToReduce.
+        /// </summary>
+        /// <param name="cardTypes"></param>
+        /// <param name="numToReduce"></param>
+        /// <param name="scrollText"></param>
+        public static void Mastery(Enums.CardType[] cardTypes, int numToReduce = 1, string scrollText = "")
+        {
+            Character character = MatchManager.Instance.GetHeroHeroActive();
+            if (!((UnityEngine.Object)character.HeroData != (UnityEngine.Object)null) || MatchManager.Instance == null)
+                return;
+            // numToReduce = 1;
+            // if (numToReduce <= 0)
+            //     return;
+            List<string> heroHand = MatchManager.Instance.GetHeroHand(character.HeroIndex);
+            List<CardData> cardDataList = new List<CardData>();
+            for (int index = 0; index < heroHand.Count; ++index)
+            {
+                bool hasProperCardTypeToReduce = cardTypes.Any(MatchManager.Instance.GetCardData(heroHand[index]).HasCardType);
+                CardData cardData = MatchManager.Instance.GetCardData(heroHand[index]);
+                if ((UnityEngine.Object)cardData != (UnityEngine.Object)null && cardData.GetCardFinalCost() > 0 && hasProperCardTypeToReduce)
+                    cardDataList.Add(cardData);
+            }
+            for (int index = 0; index < cardDataList.Count; ++index)
+            {
+                CardData cardData = cardDataList[index];
+                if ((UnityEngine.Object)cardData != (UnityEngine.Object)null)
+                {
+                    cardData.EnergyReductionTemporal += numToReduce;
+                    MatchManager.Instance.UpdateHandCards();
+                    CardItem fromTableByIndex = MatchManager.Instance.GetCardFromTableByIndex(cardData.InternalId);
+                    fromTableByIndex.PlayDissolveParticle();
+                    fromTableByIndex.ShowEnergyModification(-numToReduce);
+                    character.HeroItem.ScrollCombatText(scrollText, Enums.CombatScrollEffectType.Trait);
+                    MatchManager.Instance.CreateLogCardModification(cardData.InternalId, MatchManager.Instance.GetHero(character.HeroIndex));
+                }
+            }
+
+        }
+
     }
 }
 

@@ -44,7 +44,7 @@ namespace Riffy
             RegisterMod(
                 _name: PluginInfo.PLUGIN_NAME,
                 _author: "binbin",
-                _description: "Riffy, the Riftling.",
+                _description: "Riffy, the Riftwalker.",
                 _version: PluginInfo.PLUGIN_VERSION,
                 _date: ModDate,
                 _link: @"https://github.com/binbinmods/Riffy",

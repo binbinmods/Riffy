@@ -5,7 +5,7 @@
 	<RootNamespace>Riffy</RootNamespace>
 	<Product>Riffy</Product>
     <AssemblyName>com.binbin.Riffy</AssemblyName>
-    <Description>Riffy, The Riftling</Description>
+    <Description>Riffy, The Riftwalker</Description>
     <Version>0.1.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>

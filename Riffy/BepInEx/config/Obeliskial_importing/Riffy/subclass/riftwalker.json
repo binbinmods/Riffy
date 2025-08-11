@@ -2,7 +2,7 @@
     "ActionSound": "",
     "AutoUnlock": true,
     "Cards": [
-        "{\n    \"UnitsInDeck\": 3,\n    \"Card\": \"transmission\"\n}",
+        "{\n    \"UnitsInDeck\": 3,\n    \"Card\": \"transmision\"\n}",
         "{\n    \"UnitsInDeck\": 2,\n    \"Card\": \"manasurge\"\n}",
         "{\n    \"UnitsInDeck\": 2,\n    \"Card\": \"scrollofintellect\"\n}",
         "{\n    \"UnitsInDeck\": 3,\n    \"Card\": \"chargebattery\"\n}",
@@ -68,7 +68,7 @@
     "CardsSingularity": [
         "riftwalkervoidfuckery",
         "chargebattery",
-        "transmission",
+        "transmision",
         "clarity",
         "delayresponse",
         "meditate",
