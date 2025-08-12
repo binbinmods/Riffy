@@ -2,7 +2,9 @@
 
 A hero mod, introducing Riffy, a mage/healer specialized in inspire and energize.
 
-This character was designed by @badutski2 (James).
+This character was suggested by @badutski2 (James).
+
+In their current form, this character is notably unbalanced. If that isn't your thing, I'd avoid them.
 
 This currently does not include any events or quests related to Riffy other than those available to all heroes or all heroes of a specific class.
 

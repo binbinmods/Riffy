@@ -1,6 +1,6 @@
 {
     "NewGameObjectID": "skinriffy",
-    "BaseGameObjectID": "riftling",
+    "BaseGameObjectID": "riftEnemy1",
     "SpriteToUse": "",
     "ScaleX": 1,
     "ScaleY": 1,
